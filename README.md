@@ -14,9 +14,8 @@ This library is developed independently of, but is heavily influenced in design 
 `GeoJSON.jl` is not a listed package (yet). Heres what you're going to need to do to install it:
 
 ```julia
-# Install GeoJSON direct from this repository
+# Install GeoJSON direct from this repository to your Julia package directory
 Pkg.clone("https://github.com/yeesian/GeoJSON.jl.git")
-# This will install it to your Julia package directory.
 # Running Pkg.update() will always give you the freshest version of GeoJSON
 Pkg.test("GeoJSON")
 # Double-check that it works
